@@ -93,7 +93,7 @@
    <param id="gradientC1B7" enabled="F">0</param>
    <param id="gradientC1B8" enabled="F">0</param>
    <param id="alignmentError" comment="Yes" enabled="T">0</param>
-   <param id="misalignmentCoordinateSystem" comment="Ellipsoid" enabled="T">0</param>
+   <param id="misalignmentCoordinateSystem" comment="Mirror (standard)" enabled="T">1</param>
    <param id="translationXerror" enabled="T">0</param>
    <param id="translationYerror" enabled="T">0</param>
    <param id="translationZerror" enabled="T">0</param>
