@@ -50,19 +50,19 @@
    <param id="sourcePulseType" comment="all rays start simultaneously" enabled="T">0</param>
    <param id="sourcePulseLength" enabled="F">0</param>
   </object>
-  <object name="Slit" type="Slit">
+  <object name="Entrance-Slit" type="Slit">
    <param id="openingShape" comment="rectangle" enabled="T">0</param>
-   <param id="openingWidth" enabled="T">20</param>
-   <param id="openingHeight" enabled="T">2</param>
+   <param id="openingWidth" enabled="T">10</param>
+   <param id="openingHeight" enabled="T">10</param>
    <param id="centralBeamstop" comment="none" enabled="T">0</param>
    <param id="stopWidth" enabled="F">20</param>
    <param id="stopHeight" enabled="F">1</param>
    <param id="geometricalShape" comment="rectangle" enabled="T">0</param>
-   <param id="totalWidth" enabled="T">50</param>
-   <param id="totalHeight" enabled="T">50</param>
-   <param id="distancePreceding" enabled="T">10000</param>
+   <param id="totalWidth" enabled="T">100</param>
+   <param id="totalHeight" enabled="T">100</param>
+   <param id="distancePreceding" enabled="T">3750</param>
    <param id="azimuthalAngle" enabled="T">0</param>
-   <param id="alignmentError" comment="Yes" enabled="T">0</param>
+   <param id="alignmentError" comment="No" enabled="T">1</param>
    <param id="translationXerror" enabled="F">0</param>
    <param id="translationYerror" enabled="F">0</param>
    <param id="translationZerror" enabled="F">0</param>
@@ -72,7 +72,7 @@
    <param id="worldPosition" enabled="F">
     <x>0.0000000000000000</x>
     <y>0.0000000000000000</y>
-    <z>10000.0000000000000000</z>
+    <z>0.0000000000000000</z>
    </param>
    <param id="worldXdirection" enabled="F">
     <x>1.0000000000000000</x>

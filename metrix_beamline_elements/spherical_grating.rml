@@ -52,18 +52,18 @@
   </object>
   <object name="Spherical Grating" type="Spherical Grating">
    <param id="geometricalShape" comment="rectangle" enabled="T">0</param>
-   <param id="totalWidth" enabled="T">50</param>
-   <param id="totalLength" enabled="T">200</param>
-   <param id="gratingMount" comment="constant deviation" enabled="T">0</param>
-   <param id="deviationAngle" enabled="T">10</param>
-   <param id="entranceArmLength" enabled="T">10000</param>
-   <param id="exitArmLength" auto="T" enabled="T">1000</param>
-   <param id="radius" auto="T" enabled="T">1825.126977351541</param>
-   <param id="designEnergy" auto="T" enabled="T">100</param>
-   <param id="lineDensity" enabled="T">1000</param>
+   <param id="totalWidth" enabled="T">20</param>
+   <param id="totalLength" enabled="T">100</param>
+   <param id="gratingMount" comment="constant incidence angle" enabled="T">1</param>
+   <param id="deviationAngle" enabled="F">10</param>
+   <param id="entranceArmLength" enabled="T">6000</param>
+   <param id="exitArmLength" auto="F" enabled="T">11000</param>
+   <param id="radius" auto="F" enabled="T">109791</param>
+   <param id="designEnergy" auto="T" enabled="T">318</param>
+   <param id="lineDensity" enabled="T">1199.918</param>
    <param id="orderDiffraction" enabled="T">1</param>
-   <param id="alpha" auto="T" enabled="T">5.356550508940065</param>
-   <param id="beta" auto="T" enabled="T">-4.643449491059935</param>
+   <param id="alpha" auto="F" enabled="T">87.36100673679999</param>
+   <param id="beta" auto="F" enabled="T">-83.85870570260001</param>
    <param id="lineSpacing" comment="constant" enabled="T">0</param>
    <param id="vlsParameter1" enabled="F">0</param>
    <param id="vlsParameter2" enabled="F">0</param>
@@ -71,8 +71,8 @@
    <param id="vlsParameter4" enabled="F">0</param>
    <param id="vlsParameter5" enabled="F">0</param>
    <param id="vlsParameter6" enabled="F">0</param>
-   <param id="distancePreceding" enabled="T">10000</param>
-   <param id="azimuthalAngle" enabled="T">0</param>
+   <param id="distancePreceding" enabled="T">200</param>
+   <param id="azimuthalAngle" enabled="T">180</param>
    <param id="lineProfile" comment="unknown" enabled="T">3</param>
    <param id="gratingEfficiency" enabled="T">1</param>
    <param id="blazeAngle" enabled="F">4</param>
@@ -81,11 +81,11 @@
    <param id="grooveRatio" enabled="F">0.65</param>
    <param id="multilayerFourierCoefficients" auto="T" enabled="F">11</param>
    <param id="multilayerIntegrationSteps" auto="T" enabled="F">50</param>
-   <param id="reflectivityType" comment="Derived by Material" enabled="T">0</param>
-   <param id="materialSubstrate" enabled="T">Au</param>
-   <param id="roughnessSubstrate" enabled="T">0</param>
-   <param id="densitySubstrate" auto="T" enabled="T">19.3</param>
-   <param id="surfaceCoating" comment="Substrate only" enabled="T">0</param>
+   <param id="reflectivityType" comment="100%" enabled="T">0</param>
+   <param id="materialSubstrate" enabled="F">Au</param>
+   <param id="roughnessSubstrate" enabled="F">0.2</param>
+   <param id="densitySubstrate" auto="T" enabled="F">19.3</param>
+   <param id="surfaceCoating" comment="Substrate only" enabled="F">0</param>
    <param id="numberLayer" enabled="F">2</param>
    <param id="materialCoating1" enabled="F"></param>
    <param id="thicknessCoating1" enabled="F">0</param>
@@ -120,14 +120,14 @@
     <y>0.9956330441207255</y>
     <z>0.0933533151789348</z>
    </param>
-   <param id="slopeError" comment="No" enabled="T">1</param>
-   <param id="profileKind" comment="no Profile" enabled="F">2</param>
+   <param id="slopeError" comment="Yes" enabled="T">0</param>
+   <param id="profileKind" comment="no Profile" enabled="T">2</param>
    <param id="profileFile" absolute="" enabled="F"></param>
-   <param id="slopeErrorSag" enabled="F">0</param>
-   <param id="slopeErrorMer" enabled="F">0</param>
-   <param id="thermalDistortionAmp" enabled="F">0</param>
-   <param id="thermalDistortionSigmaX" enabled="F">0</param>
-   <param id="thermalDistortionSigmaZ" enabled="F">0</param>
+   <param id="slopeErrorSag" enabled="T">0.124</param>
+   <param id="slopeErrorMer" enabled="T">0.102</param>
+   <param id="thermalDistortionAmp" enabled="T">0</param>
+   <param id="thermalDistortionSigmaX" enabled="T">0</param>
+   <param id="thermalDistortionSigmaZ" enabled="T">0</param>
    <param id="cylindricalBowingAmp" enabled="F">0</param>
    <param id="cylindricalBowingRadius" enabled="F">0</param>
   </object>
