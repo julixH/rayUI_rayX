@@ -71,7 +71,7 @@
    <param id="vlsParameter4" enabled="F">0</param>
    <param id="vlsParameter5" enabled="F">0</param>
    <param id="vlsParameter6" enabled="F">0</param>
-   <param id="distancePreceding" enabled="T">200</param>
+   <param id="distancePreceding" enabled="T">10000</param>
    <param id="azimuthalAngle" enabled="T">180</param>
    <param id="lineProfile" comment="unknown" enabled="T">3</param>
    <param id="gratingEfficiency" enabled="T">1</param>

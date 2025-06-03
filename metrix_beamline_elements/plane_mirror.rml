@@ -55,7 +55,7 @@
    <param id="totalWidth" enabled="T">20</param>
    <param id="totalLength" enabled="T">310</param>
    <param id="grazingIncAngle" enabled="T">4.3901672</param>
-   <param id="distancePreceding" enabled="T">5800</param>
+   <param id="distancePreceding" enabled="T">10000</param>
    <param id="azimuthalAngle" enabled="T">0</param>
    <param id="systemMount" comment="standalone" enabled="T">0</param>
    <param id="premirrorShiftZ" enabled="F">0</param>

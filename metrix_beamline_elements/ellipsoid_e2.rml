@@ -62,7 +62,7 @@
    <param id="shortHalfAxisB" auto="F" enabled="T">97.1560870104</param>
    <param id="figureRotation" comment="plane" enabled="T">1</param>
    <param id="parameter_a11" enabled="F">1</param>
-   <param id="distancePreceding" enabled="T">900</param>
+   <param id="distancePreceding" enabled="T">10000</param>
    <param id="azimuthalAngle" enabled="T">0</param>
    <param id="reflectivityType" comment="100%" enabled="T">0</param>
    <param id="materialSubstrate" enabled="F">Au</param>

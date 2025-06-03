@@ -59,7 +59,7 @@
    <param id="exitArmLength" enabled="T">3750</param>
    <param id="bendingRadius" comment="Short Radius rho" enabled="T">1</param>
    <param id="radius" auto="F" enabled="T">174.21</param>
-   <param id="distancePreceding" enabled="T">2000</param>
+   <param id="distancePreceding" enabled="T">10000</param>
    <param id="azimuthalAngle" enabled="T">90</param>
    <param id="reflectivityType" comment="100%" enabled="T">0</param>
    <param id="materialSubstrate" enabled="F">Au</param>
